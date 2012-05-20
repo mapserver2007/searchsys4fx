@@ -1,0 +1,53 @@
+#tabContent {
+	/*background-color: #FFCC00;*/
+	margin: 10px;
+	padding: 1px;
+}
+
+#tabIndex {
+	margin: 0px;
+	padding: 0px;
+}
+
+#tabIndex li {
+	color:#666;
+	font-family: Verdana, Arial, sans-serif;
+	float:left;
+	/*margin-right: 5px;*/
+	list-style-type: none;
+	cursor: pointer;
+	display: block;
+	font-size:14px;
+}
+
+
+#tabIndex .close {
+	margin-top: 5px;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #ccc;
+	width: 105px;
+	border-bottom: none;
+	text-align: center;
+	background: #fff url("../images/bg_tab.gif") 0 0 repeat-x;
+	text-decoration: none;
+}
+
+#tabIndex .open {
+	width: 105px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	border-right: 1px solid #999;
+	border-left: 1px solid #ccc;
+	background-color: #8CC871;
+	text-align: center;
+	background: #8CC871 url("../images/bg_tab_on.gif") 0 0 repeat-x;
+	text-decoration: none;
+}
+
+#tabBoxIndex {
+	border: solid 1px #666699;
+	margin: 0px;
+	padding: 1em;
+	clear: both;
+}

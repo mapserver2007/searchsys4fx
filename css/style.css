@@ -1,0 +1,253 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/* モロバレhack */
+body div {
+	text-align: left;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 魔法のタグ */
+* { box-sizing : border-box}
+* { -moz-box-sizing : border-box}
+
+/* clearfix */
+.clearfix: after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+
+/* フォーム共通 */
+.form {
+	border:1px solid #808080;
+	margin: 0px;
+}
+
+/* サブミット共通 */
+.submit {
+	background:#CCCCCC url(../images/bg_submit.gif) repeat-x scroll 0%;
+	border-color:#CCCCCC rgb(153, 153, 153) rgb(102, 102, 102);
+	border-style:solid;
+	border-width:1px;
+	font-size:12px;
+	margin:0px;
+	padding:4px;
+}
+
+/* BOX共通 */
+.box {
+	background-color:#FFFFFF;
+	border:1px solid #808080;
+	color: #666;
+	font-family: Verdana, Arial, sans-serif;
+	overflow:hidden;
+	margin: auto;
+}
+
+/* Border共通 */
+.border {
+	border:1px solid #666699;
+}
+
+/* BOXメイン */
+#box_main {
+	width: 800px;
+}
+
+/* BOXタイトル */
+#box_title {
+	font-size: medium;
+	border-bottom:1px solid #808080;
+}
+
+/* BOXアイコン */
+#box_icon {
+	text-align: right;
+	background-color:#FFE3E3;
+	border-bottom:1px solid #808080;
+	height:20px;
+	padding: 2px;
+}
+
+/* BOXリンク */
+#box_link {
+	text-align:center;
+	border-bottom:1px solid #808080;
+	font-size: 12px;
+}
+
+#box_link a {
+	text-decoration: none; 
+}
+
+/* メインコンテナ */
+#pss_container {
+	
+}
+
+/* ヘッダ */
+#box_c_title {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+/* メインフォーム */
+#pss_form {
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+}
+
+#pss_inputform {
+	background: #FFFFFF url(../images/pss_search.gif) no-repeat scroll 0%;
+	padding-left: 17px;
+	width: 250px;
+}
+
+/* オプション */
+#pss_option {
+	font-family: Verdana, Arial, sans-serif;
+	color: #666;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	width: 460px;
+	padding: 0px;
+	margin: 2px 0px 0px 0px;
+}
+
+/* オプション選択時の色とか */
+.pss_opts {
+	font-size: 12px;
+	cursor: pointer;
+	margin: 1px;
+}
+
+.pss_cats {
+	font-size: 12px;
+	cursor: pointer;
+	margin: 1px;
+}
+
+
+/* 検索結果表示領域 */
+.pss_result_header {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: medium;
+	color: #6A5ACD;
+}
+
+#search {
+
+}
+
+#search ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#search li {
+	/* text-align: left; */
+	margin-left: 2px;
+	padding-left: 10px;
+	list-style-type:none;
+	display: inline;
+	background: url(../images/pss_arrow.gif) no-repeat scroll left center;
+}
+
+/* 詳細結果表示領域 */
+.pss_detail {
+	margin: 10px;
+	padding-left: 10px;
+}
+
+.pss_detail_header {
+	font-family: Verdana, Arial, sans-serif;
+	color: #6A5ACD;
+	border-bottom:1px solid #666699;
+	font-size: medium;
+}
+
+#pss_detail_close {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#detail_idx {
+	float: left;
+	width: auto;
+	margin-top: 10px;
+}
+
+#detail_idx p {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#detail_img {
+	float: left;
+	width: auto;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#detail_img img {
+	border:1px solid #666699;
+}
+
+/* Yahoo検索リンク */
+#ys_link {
+	padding-left: 17px;
+	background: url(../images/pss_search.gif) no-repeat scroll left center;
+	font-size: x-small;
+}
+
+/* Yahoo検索結果 */
+#ys_container{
+	margin: 0px;
+	padding: 5px;
+}
+
+/* Yahoo検索結果・画像 */
+#ys_img_container {
+	float: left;
+	width: 128px;
+}
+
+/* Yahoo検索結果・テキスト */
+#ys_text_container {
+	float: right;
+	width: 590px;
+}
+
+#ys_text_container * {
+	font-size: 12px;
+}
+
+/* NEXT */
+#next {
+	text-align: center;
+	cursor: pointer;
+}
+
+#ys_next {
+	text-align: center;
+	cursor: pointer;
+}
